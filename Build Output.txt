@@ -11,7 +11,7 @@ Solving environment: ...working... done
 
 ## Package Plan ##
 
-  environment location: /Users/harold/miniconda3/conda-bld/conda_build_issue_1534965114206/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+  environment location: /Users/harold/miniconda3/conda-bld/conda_build_issue_1534967000209/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
 
 
 The following NEW packages will be INSTALLED:
@@ -68,8 +68,8 @@ The following NEW packages will be INSTALLED:
 Preparing transaction: ...working... done
 Verifying transaction: ...working... done
 Executing transaction: ...working... done
-Copying /Users/harold/Documents/Code/Python/Conda-Build-Issue to /Users/harold/miniconda3/conda-bld/conda_build_issue_1534965114206/work
-source tree in: /Users/harold/miniconda3/conda-bld/conda_build_issue_1534965114206/work
+Copying /Users/harold/Documents/Code/Python/Conda-Build-Issue to /Users/harold/miniconda3/conda-bld/conda_build_issue_1534967000209/work
+source tree in: /Users/harold/miniconda3/conda-bld/conda_build_issue_1534967000209/work
 running install
 running bdist_egg
 running egg_info
@@ -109,52 +109,52 @@ creating dist
 creating 'dist/conda_build_issue-0.0.0-py3.6.egg' and adding 'build/bdist.macosx-10.7-x86_64/egg' to it
 removing 'build/bdist.macosx-10.7-x86_64/egg' (and everything under it)
 Processing conda_build_issue-0.0.0-py3.6.egg
-creating /Users/harold/miniconda3/conda-bld/conda_build_issue_1534965114206/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.6/site-packages/conda_build_issue-0.0.0-py3.6.egg
-Extracting conda_build_issue-0.0.0-py3.6.egg to /Users/harold/miniconda3/conda-bld/conda_build_issue_1534965114206/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.6/site-packages
+creating /Users/harold/miniconda3/conda-bld/conda_build_issue_1534967000209/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.6/site-packages/conda_build_issue-0.0.0-py3.6.egg
+Extracting conda_build_issue-0.0.0-py3.6.egg to /Users/harold/miniconda3/conda-bld/conda_build_issue_1534967000209/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.6/site-packages
 Adding conda-build-issue 0.0.0 to easy-install.pth file
-Installing hello script to /Users/harold/miniconda3/conda-bld/conda_build_issue_1534965114206/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/bin
+Installing hello script to /Users/harold/miniconda3/conda-bld/conda_build_issue_1534967000209/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/bin
 
-Installed /Users/harold/miniconda3/conda-bld/conda_build_issue_1534965114206/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.6/site-packages/conda_build_issue-0.0.0-py3.6.egg
+Installed /Users/harold/miniconda3/conda-bld/conda_build_issue_1534967000209/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.6/site-packages/conda_build_issue-0.0.0-py3.6.egg
 Processing dependencies for conda-build-issue==0.0.0
 Searching for keras_preprocessing==1.0.2
 Traceback (most recent call last):
   File "setup.py", line 13, in <module>
     zip_safe=False
-  File "/Users/harold/miniconda3/conda-bld/conda_build_issue_1534965114206/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.6/site-packages/setuptools/__init__.py", line 131, in setup
+  File "/Users/harold/miniconda3/conda-bld/conda_build_issue_1534967000209/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.6/site-packages/setuptools/__init__.py", line 131, in setup
     return distutils.core.setup(**attrs)
-  File "/Users/harold/miniconda3/conda-bld/conda_build_issue_1534965114206/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.6/distutils/core.py", line 148, in setup
+  File "/Users/harold/miniconda3/conda-bld/conda_build_issue_1534967000209/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.6/distutils/core.py", line 148, in setup
     dist.run_commands()
-  File "/Users/harold/miniconda3/conda-bld/conda_build_issue_1534965114206/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.6/distutils/dist.py", line 955, in run_commands
+  File "/Users/harold/miniconda3/conda-bld/conda_build_issue_1534967000209/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.6/distutils/dist.py", line 955, in run_commands
     self.run_command(cmd)
-  File "/Users/harold/miniconda3/conda-bld/conda_build_issue_1534965114206/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.6/distutils/dist.py", line 974, in run_command
+  File "/Users/harold/miniconda3/conda-bld/conda_build_issue_1534967000209/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.6/distutils/dist.py", line 974, in run_command
     cmd_obj.run()
-  File "/Users/harold/miniconda3/conda-bld/conda_build_issue_1534965114206/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.6/site-packages/setuptools/command/install.py", line 67, in run
+  File "/Users/harold/miniconda3/conda-bld/conda_build_issue_1534967000209/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.6/site-packages/setuptools/command/install.py", line 67, in run
     self.do_egg_install()
-  File "/Users/harold/miniconda3/conda-bld/conda_build_issue_1534965114206/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.6/site-packages/setuptools/command/install.py", line 117, in do_egg_install
+  File "/Users/harold/miniconda3/conda-bld/conda_build_issue_1534967000209/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.6/site-packages/setuptools/command/install.py", line 117, in do_egg_install
     cmd.run()
-  File "/Users/harold/miniconda3/conda-bld/conda_build_issue_1534965114206/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.6/site-packages/setuptools/command/easy_install.py", line 415, in run
+  File "/Users/harold/miniconda3/conda-bld/conda_build_issue_1534967000209/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.6/site-packages/setuptools/command/easy_install.py", line 415, in run
     self.easy_install(spec, not self.no_deps)
-  File "/Users/harold/miniconda3/conda-bld/conda_build_issue_1534965114206/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.6/site-packages/setuptools/command/easy_install.py", line 657, in easy_install
+  File "/Users/harold/miniconda3/conda-bld/conda_build_issue_1534967000209/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.6/site-packages/setuptools/command/easy_install.py", line 657, in easy_install
     return self.install_item(None, spec, tmpdir, deps, True)
-  File "/Users/harold/miniconda3/conda-bld/conda_build_issue_1534965114206/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.6/site-packages/setuptools/command/easy_install.py", line 704, in install_item
+  File "/Users/harold/miniconda3/conda-bld/conda_build_issue_1534967000209/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.6/site-packages/setuptools/command/easy_install.py", line 704, in install_item
     self.process_distribution(spec, dist, deps)
-  File "/Users/harold/miniconda3/conda-bld/conda_build_issue_1534965114206/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.6/site-packages/setuptools/command/easy_install.py", line 749, in process_distribution
+  File "/Users/harold/miniconda3/conda-bld/conda_build_issue_1534967000209/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.6/site-packages/setuptools/command/easy_install.py", line 749, in process_distribution
     [requirement], self.local_index, self.easy_install
-  File "/Users/harold/miniconda3/conda-bld/conda_build_issue_1534965114206/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.6/site-packages/pkg_resources/__init__.py", line 773, in resolve
+  File "/Users/harold/miniconda3/conda-bld/conda_build_issue_1534967000209/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.6/site-packages/pkg_resources/__init__.py", line 773, in resolve
     replace_conflicting=replace_conflicting
-  File "/Users/harold/miniconda3/conda-bld/conda_build_issue_1534965114206/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.6/site-packages/pkg_resources/__init__.py", line 1056, in best_match
+  File "/Users/harold/miniconda3/conda-bld/conda_build_issue_1534967000209/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.6/site-packages/pkg_resources/__init__.py", line 1056, in best_match
     return self.obtain(req, installer)
-  File "/Users/harold/miniconda3/conda-bld/conda_build_issue_1534965114206/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.6/site-packages/pkg_resources/__init__.py", line 1068, in obtain
+  File "/Users/harold/miniconda3/conda-bld/conda_build_issue_1534967000209/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.6/site-packages/pkg_resources/__init__.py", line 1068, in obtain
     return installer(requirement)
-  File "/Users/harold/miniconda3/conda-bld/conda_build_issue_1534965114206/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.6/site-packages/setuptools/command/easy_install.py", line 664, in easy_install
+  File "/Users/harold/miniconda3/conda-bld/conda_build_issue_1534967000209/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.6/site-packages/setuptools/command/easy_install.py", line 664, in easy_install
     not self.always_copy, self.local_index
-  File "/Users/harold/miniconda3/conda-bld/conda_build_issue_1534965114206/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.6/site-packages/setuptools/package_index.py", line 657, in fetch_distribution
+  File "/Users/harold/miniconda3/conda-bld/conda_build_issue_1534967000209/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.6/site-packages/setuptools/package_index.py", line 657, in fetch_distribution
     self.find_packages(requirement)
-  File "/Users/harold/miniconda3/conda-bld/conda_build_issue_1534965114206/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.6/site-packages/setuptools/package_index.py", line 490, in find_packages
+  File "/Users/harold/miniconda3/conda-bld/conda_build_issue_1534967000209/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.6/site-packages/setuptools/package_index.py", line 490, in find_packages
     self.scan_url(self.index_url + requirement.unsafe_name + '/')
-  File "/Users/harold/miniconda3/conda-bld/conda_build_issue_1534965114206/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.6/site-packages/setuptools/package_index.py", line 830, in scan_url
+  File "/Users/harold/miniconda3/conda-bld/conda_build_issue_1534967000209/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.6/site-packages/setuptools/package_index.py", line 830, in scan_url
     self.process_url(url, True)
-  File "/Users/harold/miniconda3/conda-bld/conda_build_issue_1534965114206/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.6/site-packages/setuptools/package_index.py", line 325, in process_url
+  File "/Users/harold/miniconda3/conda-bld/conda_build_issue_1534967000209/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.6/site-packages/setuptools/package_index.py", line 325, in process_url
     "Be sure to add all dependencies in the meta.yaml  url=%s" % url)
 RuntimeError: Setuptools downloading is disabled in conda build. Be sure to add all dependencies in the meta.yaml  url=https://pypi.org/simple/keras_preprocessing/
 Traceback (most recent call last):
@@ -166,7 +166,7 @@ Traceback (most recent call last):
     verify=args.verify)
   File "/Users/harold/miniconda3/lib/python3.6/site-packages/conda_build/api.py", line 200, in build
     notest=notest, need_source_download=need_source_download, variants=variants)
-  File "/Users/harold/miniconda3/lib/python3.6/site-packages/conda_build/build.py", line 2206, in build_tree
+  File "/Users/harold/miniconda3/lib/python3.6/site-packages/conda_build/build.py", line 2209, in build_tree
     notest=notest,
   File "/Users/harold/miniconda3/lib/python3.6/site-packages/conda_build/build.py", line 1446, in build
     utils.check_call_env(cmd, env=env, cwd=src_dir, stats=build_stats)
@@ -174,4 +174,5 @@ Traceback (most recent call last):
     return _func_defaulting_env_to_os_environ('call', *popenargs, **kwargs)
   File "/Users/harold/miniconda3/lib/python3.6/site-packages/conda_build/utils.py", line 290, in _func_defaulting_env_to_os_environ
     raise subprocess.CalledProcessError(proc.returncode, _args)
-subprocess.CalledProcessError: Command '['/bin/bash', '-e', '/Users/harold/miniconda3/conda-bld/conda_build_issue_1534965114206/work/conda_build.sh']' returned non-zero exit status 1.
+subprocess.CalledProcessError: Command '['/bin/bash', '-e', '/Users/harold/miniconda3/conda-bld/conda_build_issue_1534967000209/work/conda_build.sh']' returned non-zero exit status 1.
+Harolds-MacBook-Pro:Conda-Build-Issue harold$ 
