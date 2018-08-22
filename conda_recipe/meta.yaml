@@ -1,0 +1,21 @@
+package:
+  name: conda_build_issue
+  version: "0.0.0"
+
+source:
+  path: ..
+
+build:
+  entry_points:
+    - hello=conda_build_issue.hello:main
+
+requirements:
+
+  build:
+    - keras
+    - python
+    - setuptools
+
+  run:
+    - keras
+    - python
