@@ -23,5 +23,8 @@ which seems to suggest that `pysoundfile` needs to be included in the
 package's `meta.yaml` file. However, it is included already. The complete
 output of the command is in the file `Build Output.txt` of this repository.
 
+I see that the `pysoundfile` package on the `conda-forge` channel is a `noarch`
+package. Is the problem related to this?
+
 Why does this simple package not build, and what do I need to do to fix the
 problem?
