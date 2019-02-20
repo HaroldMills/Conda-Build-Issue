@@ -1,5 +1,6 @@
 # Conda-Build-Issue
-Demonstrates a problem building a simple Conda package that depends on Keras.
+Demonstrates a problem building a simple Conda package that depends on
+`pysoundfile`.
 
 To reproduce the problem:
 
@@ -13,21 +14,14 @@ To reproduce the problem:
 
         conda build conda_recipe
         
-On my computer, running macOS and using `conda` 4.5.10 and `conda_build` 3.13.0,
-the build fails with error messages suggesting that `setup.py` encounters a
-problem concerning the package `keras-preprocessing`. The complete output of the
-command is in the file `Build Output.txt` of this repository.
+On my computer, running macOS and using `conda` 4.6.4 and `conda_build` 3.17.8,
+the build fails with error messages from `setup.py`. One of the messages is:
 
-I'm not sure what the problem is, since there certainly is a package called
-`keras-preprocessing` available from the default Anaconda channel. I have also
-tried building with:
+        RuntimeError: Setuptools downloading is disabled in conda build. Be sure to add all dependencies in the meta.yaml  url=https://pypi.org/simple/pysoundfile/
 
-        conda build -c conda-forge conda_recipe
-        
-(i.e. using the `conda-forge` channel instead of the default Anaconda channel)
-with similar results.
+which seems to suggest that `pysoundfile` needs to be included in the
+package's `meta.yaml` file. However, it is included already. The complete
+output of the command is in the file `Build Output.txt` of this repository.
 
-One of the error messages in the build output suggests ensuring that all
-dependencies are included in the `meta.yaml` file. However, adding
-the `keras-preprocessing` package to that file does not help: the build
-output is the same.
+Why does this simple package not build, and what do I need to do to fix the
+problem?

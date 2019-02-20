@@ -1,6 +1,6 @@
 package:
   name: conda_build_issue
-  version: "0.0.0"
+  version: "2.0.0"
 
 source:
   path: ..
@@ -12,10 +12,10 @@ build:
 requirements:
 
   build:
-    - keras
+    - pysoundfile
     - python
     - setuptools
 
   run:
-    - keras
+    - pysoundfile
     - python
