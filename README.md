@@ -12,7 +12,7 @@ To reproduce the problem:
 
 3. Issue the command:
 
-        conda build conda_recipe
+        conda build -c conda-forge conda_recipe
         
 On my computer, running macOS and using `conda` 4.6.4 and `conda_build` 3.17.8,
 the build fails with error messages from `setup.py`. One of the messages is:
